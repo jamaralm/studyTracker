@@ -24,7 +24,7 @@ def addStudyTime(date, hours, minutes):
 
     data.append({'date': date, 'hours': hours, 'minutes': minutes})
     saveData(data)
-    print('Sucesfully registered the study time! =D')
+    print('Sucesfully registered the study time!! =D')
 
 def showTimeStudied():
     data = loadData(filePath)
